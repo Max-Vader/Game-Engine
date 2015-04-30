@@ -41,7 +41,7 @@ namespace Game_Engine
             Brush red = new SolidBrush(Color.Red);
             Pen redPen = new Pen(red, 8);
 
-            gObject.DrawLine(redPen, x, 10, 400, 376);
+            gObject.DrawLine(redPen, x, 19, 400, 376);
         }
 
         private void timer1_Tick(object sender, EventArgs e) //every tick
