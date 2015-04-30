@@ -38,7 +38,7 @@ namespace Game_Engine
             this.DoubleBuffered = true;
             Graphics gObject = screen.CreateGraphics();
 
-            Brush red = new SolidBrush(Color.Blue);
+            Brush red = new SolidBrush(Color.Red);
             Pen redPen = new Pen(red, 8);
 
             gObject.DrawLine(redPen, x, 10, 400, 376);
